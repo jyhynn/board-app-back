@@ -26,5 +26,5 @@ jobs:
         shell: bash
 
       - name: Build with Gradle
-        run: ./board-back/gradlew build
+        run: board-app-back/board-back/gradlew build
         shell: bash
